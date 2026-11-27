@@ -19,6 +19,7 @@ export default function Privacy() {
           <li>No account, no ads, no analytics, no tracking.</li>
           <li>The camera view is only shown on screen. Nothing is recorded or uploaded.</li>
           <li>Maps are loaded from a map provider, which sees which map area your phone asks for.</li>
+          <li>"Search online" sends only the words you type to a search service.</li>
         </ul>
       </section>
 
