@@ -81,6 +81,10 @@ export default function App() {
           <pre>{JSON.stringify(config, null, 2)}</pre>
         </details>
       </section>
+
+      <footer>
+        <a href="privacy/">Privacy policy</a>
+      </footer>
     </main>
   )
 }

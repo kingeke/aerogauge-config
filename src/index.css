@@ -46,3 +46,13 @@ details { margin-top: 14px; }
 summary { cursor: pointer; color: var(--muted); }
 pre { background: var(--bg); border: 1px solid var(--border); border-radius: 12px; padding: 14px;
   overflow: auto; font-size: 12.5px; }
+a.logo { text-decoration: none; }
+footer { text-align: center; font-size: 13px; color: var(--muted); margin-top: 8px; }
+.prose p, .prose li { color: var(--muted); font-size: 15px; line-height: 1.6; }
+.prose p { margin: 0 0 10px; }
+.prose p:last-child { margin-bottom: 0; }
+.prose h3 { margin: 16px 0 4px; font-size: 16px; }
+.prose h3:first-of-type { margin-top: 0; }
+.prose ul { margin: 0 0 10px; padding-left: 20px; }
+.summary { border-color: color-mix(in srgb, var(--cyan) 40%, var(--border)); }
+.summary li { color: var(--text); }

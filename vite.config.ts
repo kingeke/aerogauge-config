@@ -1,4 +1,5 @@
 import react from '@vitejs/plugin-react'
+import { resolve } from 'node:path'
 import { defineConfig, type Plugin } from 'vite'
 import config from './src/config.ts'
 
@@ -28,4 +29,12 @@ function configJson(): Plugin {
 export default defineConfig({
   base: '/aerogauge-config/',
   plugins: [react(), configJson()],
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(import.meta.dirname, 'index.html'),
+        privacy: resolve(import.meta.dirname, 'privacy/index.html'),
+      },
+    },
+  },
 })
