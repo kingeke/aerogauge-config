@@ -78,6 +78,13 @@ export default function Privacy() {
           receives your IP address and the map area being shown, which can reveal your approximate location. The
           app does not send your GPS position, journeys or any identifier to them.
         </p>
+        <h3>Online place search</h3>
+        <p>
+          Searching for airports and cities happens on your phone. If you tap "Search online", the text you typed
+          is sent to Photon, a search service run by komoot using OpenStreetMap data
+          (<a href="https://www.komoot.com/privacy">privacy policy</a>), which also receives your IP address. Your
+          location is never sent. You can remove the button in Settings.
+        </p>
         <h3>Update check</h3>
         <p>
           The app downloads a small settings file from this website (hosted on GitHub Pages) to find out whether a
